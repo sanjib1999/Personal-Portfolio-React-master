@@ -1,0 +1,149 @@
+.swiper-fixed-width-300{
+    width: 300px;
+}
+.slides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
+    /* styles same as work.css */
+    /* background: rgba(255, 255, 255, 0.26); */
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+
+.slider>img{
+    width: 34rem;
+    height: 30rem;
+    /* border-radius: 100%; */
+}
+ 
+ 
+ .portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+/*
+#slider{
+    position: relatie;
+    width: 50%;
+    height: 32vw;
+    margin: 110px auto;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+}
+
+#slider label,
+#slider label img{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    justify-content: center;
+    transition: transform 400ms ease;
+}
+
+/* img{
+    border: 5px solid #fff;
+} */
+
+/* radio button functionlity */
+/* input[type=radio]{
+    position: relative;
+    top: 110%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    opacity: 0.4;
+    transform: translateX(-83px);
+    cursor: pointer;
+}
+input[type=radio]:checked{
+    opacity: 1;
+
+} */
+/* 
+slider functionlity */
+
+/* normal position */
+
+/* #s1:checked ~ #slider1,
+#s2:checked ~ #slider2,
+#s3:checked ~ #slider3,
+#s4:checked ~ #slider4,
+#s5:checked ~ #slider5{
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(0%,0,0px);
+} */
+/* 
+next image slider */
+/* 
+#s1:checked ~ #slider2,
+#s2:checked ~ #slider3,
+#s3:checked ~ #slider4,
+#s4:checked ~ #slider5,
+#s5:checked ~ #slider1{
+    transform: translate3d(20%, 0, -100px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+
+} */
+
+/* next to next image of slider */
+
+/* #s1:checked ~ #slider3,
+#s2:checked ~ #slider4,
+#s3:checked ~ #slider5,
+#s4:checked ~ #slider1,
+#s5:checked ~ #slider2{
+    transform: translate3d(40%, 0, -250px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+
+
+} */
+
+/* previous slide */
+
+/* #s1:checked ~ #slider5,
+#s2:checked ~ #slider1,
+#s3:checked ~ #slider2,
+#s4:checked ~ #slider3,
+#s5:checked ~ #slider4{
+    transform: translate3d(-20%, 0, -100px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+
+}
+
+#s1:checked ~ #slider4,
+#s2:checked ~ #slider5,
+#s3:checked ~ #slider1,
+#s4:checked ~ #slider2,
+#s5:checked ~ #slider3{
+    transform: translate3d(-40%, 0, -250px);
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+
+
+}
+
+@media screen and (max-width: 480px){
+    #slider{
+        width: 230px;
+        height: 220px;
+    }
+  } */
