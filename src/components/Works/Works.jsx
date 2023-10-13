@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
+import Upwork from "../../image/w1-removebg-preview.png";
+import Fiverr from "../../image/w2-removebg-preview.png";
 // import Amazon from "../../img/amazon.png";
 import Logo from "../../image/logo1.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Shopify from "../../image/w3-removebg-preview.png";
+import Facebook from "../../image/w4-removebg-preview.png";
+import w5 from "../../image/w5-removebg-preview.png";
+import w6 from "../../image/w6-removebg-preview.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -22,9 +24,10 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Cover All these Syllabus with
           </span>
-          <span>Brands & Clients</span>
+          
+          <span>Quality & Perfection</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
@@ -60,7 +63,7 @@ const Works = () => {
           <div className="w-secCircle">
             <img src={Fiverr} alt="" />
           </div>
-          <div className="w-secCircle">
+          <div className="w-secCircle1">
             <img src={Logo} alt="" />
           </div>{" "}
           <div className="w-secCircle">
@@ -70,10 +73,10 @@ const Works = () => {
             <img src={Facebook} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={w5} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={w6} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

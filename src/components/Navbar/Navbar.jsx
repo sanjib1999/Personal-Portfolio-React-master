@@ -9,11 +9,12 @@ const Navbar = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   
+  
   return (
-    <div className="n-wrapper" id="Navbar">
+    <div className="n-wrapper" id="Navbar" style={{backgroundColor:darkMode?"black":"white"}}>
       {/* left */}
       <div className="n-left">
-        <img src={Logo} alt="" style={{"height":"65px","width":"65px", marginTop:"0.6rem"}} />
+        <img src={Logo} alt="" style={{"height":"65px","width":"65px", marginTop:"0.6rem",marginLeft:"0.6rem"}} />
         <div className="n-name" style={{color: darkMode ? "white" : "rgb(0,0,153)",fontFamily: "Arial,sans-serif"}}>EXAMIRROR</div>
       </div>
       {/* right */}

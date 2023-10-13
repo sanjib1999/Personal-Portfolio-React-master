@@ -1,11 +1,20 @@
 .n-wrapper {
   height: 10vh;
+  /* margin-left: -3.5rem;
+  margin-right: -3.5rem; */
   display: flex;
   justify-content: space-between;
+  /* background-color: white; */
   margin-bottom: 2rem;
   top: 0;
   position: fixed;
+ 
 }
+#Navbar{
+  overflow: hidden;
+  z-index: 3;
+}
+
 .n-left {
   flex: 1;
   align-items: center;
@@ -51,6 +60,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .n-wrapper{
+    margin-left: -1rem;
+  }
   .n-list {
     display: none;
   }

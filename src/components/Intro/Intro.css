@@ -57,7 +57,7 @@
 }
 .i-right > * {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 .i-right > :nth-child(1) {
   transform: scale(0.69);

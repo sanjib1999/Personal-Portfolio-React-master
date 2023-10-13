@@ -1,13 +1,35 @@
+.whatsapp{
+    margin-left: 0.7rem;
+    display: flex;
+    margin-top: 1rem;
+}
+.call-no{
+    display: flex;
+    margin-top: 1.3rem;
+    margin-left: 0.7rem;
+}
+.Email-no{
+    display: flex;
+    margin-top: 1.6rem;
+    margin-left: 0.7rem;
+}
+.details{
+    
+    margin-top: -1rem;
+    flex: -1;
+}
+
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 80vh;
     margin-top: 4rem;
       /* scroll */
-  padding-top: 3rem;
+    padding-top: 3rem;
 }
 
 .c-right{
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     position: relative;

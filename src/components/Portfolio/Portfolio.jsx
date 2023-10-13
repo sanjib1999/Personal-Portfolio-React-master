@@ -2,10 +2,14 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+// import Sidebar from "../../img/sidebar.png";
+// import Ecommerce from "../../img/ecommerce.png";
+// import HOC from "../../img/hoc.png";
+// import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../image/ranker.png";
+import Ecommerce from "../../image/examirror banner.png";
+import HOC from "../../image/p1.png";
+import MusicApp from "../../image/p2.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -13,7 +17,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{color: darkMode?'white': ''}}>Our Achivers</span>
       <span>Portfolio</span>
 
       {/* slider */}

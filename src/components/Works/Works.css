@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 .awesome > :nth-child(2) {
-  color: var(--orange);
+  color: var(--);
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -29,6 +29,7 @@
   font-size: 14px;
   margin-top: 1rem;
 }
+
 .s-button {
   width: 8rem;
   height: 2rem;
@@ -64,7 +65,7 @@
   top: 2rem;
 }
 .w-mainCircle > :nth-child(3) {
-  left: 6.5rem;
+  left: 6.7rem;
   top: 6rem;
 }
 .w-mainCircle > :nth-child(4) {
@@ -98,6 +99,28 @@
 }
 
 .w-secCircle > img {
+  height: 160px;
+  left:1.2rem;
+  width: 160px;
+  transform: scale(0.6);
+}
+.w-secCircle1{
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: "none";
+  box-shadow: var(--smboxShadow);
+  background: white;
+  
+}
+.w-secCircle1 > img {
+  height: 190px;
+  width: 190px;
   transform: scale(0.6);
 }
 
